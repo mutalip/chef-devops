@@ -1,0 +1,10 @@
+Data bags store global variables as JSON data. Data bags are indexed for searching and can be loaded by a cookbook or accessed during a search
+
+
+Create a Data Bag¶
+A data bag can be created in two ways: using knife or manually. In general, using knife to create data bags is recommended, but as long as the data bag folders and data bag item JSON files are created correctly, either method is safe and effective.
+
+Using Knife¶
+knife can be used to create data bags and data bag items when the knife data bag subcommand is run with the create argument. For example:
+
+$ knife data bag create DATA_BAG_NAME (DATA_BAG_ITEM)
